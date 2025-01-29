@@ -9,6 +9,7 @@ function palindrome(){
     const username = document.getElementById("username_input").value;
     const display = document.getElementById("display");
     const word = document.getElementById("yourWord_input").value;
+    
 
         if(word === " "){
             display.textContent = "Please enter a value"
