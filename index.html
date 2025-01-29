@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="palindrome app developed by decency okobia">
+    <meta property="og:title" content="palindrome app">
+    <meta property="og:description" content="a palindrome application developed by decency okobia">
+    <meta property="og:image" content="url to thumbnail image">
+    <meta property="og:url" content="your website url">
+    <title>Palindrome App</title>
+    <link rel="icon" href="image.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Palindrome App</h1>
+        <span>This is a basic application built using HTML for structure, CSS for styling, and JavaScript for
+            functionality.</span>
+    </header>
+
+    <main id="container">
+        <input type="text" id="username_input" placeholder="Enter your name" name="username_input" required>
+        <input type="text" id="yourWord_input" name="yourWord_input" required>
+        <h2 id="display">Enter your chosen value above to check if it is a palindrome - Goodluck!</h2>
+        <div class="my_buttons">
+            <button class="btn" id="check_btn" onclick="palindrome()">Check</button>
+            <button class="btn" id="clear_btn" onclick="cleardisplay()">Reset</button>
+        </div>
+        <p id="motivation_text"><span>Hint:</span> A palindrome is a word, phrase, number, or other sequence of
+            characters
+            that reads the same
+            forward and backward (ignoring spaces, punctuation, and capitalization).</p>
+    </main>
+
+    <footer>
+        <h2 class="footer">Created By: Decency Okobia</h2>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
